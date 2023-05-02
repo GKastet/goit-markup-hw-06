@@ -692,27 +692,6 @@ img {
   margin-bottom: 0px;
 }
 
-/* .filter-item::before {
-  content: '';
-  position: absolute;
-
-  display: block;
-  width: 360px;
-  height: 300px;
-  top: 0;
-  left: 0;
-
-  
-  background-color: var(--iris);
-  transform: translateY(100%);
-  transition: transform var(--animation-time) var(--animation-cubic);
-
-} */
-
-/* .filter-item:hover::before {
-  transform: translateY(0);
-  
-} */
 .filter-item:hover .filter-item-overlay {
   transform: translateY(0);
 
