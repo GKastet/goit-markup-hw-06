@@ -296,6 +296,7 @@ img {
   transition: outline var(--animation-time) var(--animation-cubic);
 }
 
+.modal-input:hover,
 .modal-input:focus {
   outline: 1px solid var(--iris);
 }
@@ -309,6 +310,7 @@ img {
   fill: var(--navy-blue);
   transition: fill var(--animation-time) var(--animation-cubic);
 }
+/* .modal-input:hover ~ .modal-svg */
 .modal-input:focus ~ .modal-svg {
   fill: var(--iris);
 }
@@ -354,7 +356,7 @@ img {
 .modal-policytext {
   display: inline-block;
   font-weight: 400;
-  margin-right: 4px;
+  margin: 0 4px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -868,6 +870,7 @@ img {
   transition: border-color var(--animation-time) var(--animation-cubic);
 }
 
+.footer-subscribe-input:hover,
 .footer-subscribe-input:focus {
   border-color: var(--iris);
 }
