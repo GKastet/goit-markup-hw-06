@@ -331,7 +331,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  outline: 1px solid tomato;
+  
 }
 .modal-checkbox {
   display: flex;
@@ -350,8 +350,8 @@ img {
 }
 
 .checkbox:checked + .modal-policy > .modal-checkbox {
-  background-color: var(--ocean);
-  }
+  background-color: #404bbf;
+}
 
 .modal-policytext {
   display: inline-block;
