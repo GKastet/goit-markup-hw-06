@@ -301,6 +301,10 @@ img {
   outline: 1px solid var(--iris);
 }
 
+.modal-input:required {
+  outline-color: transparent;
+}
+
 .modal-svg {
   position: absolute;
   top: 50%;
@@ -310,7 +314,8 @@ img {
   fill: var(--navy-blue);
   transition: fill var(--animation-time) var(--animation-cubic);
 }
-/* .modal-input:hover ~ .modal-svg */
+
+.modal-input:hover ~ .modal-svg,
 .modal-input:focus ~ .modal-svg {
   fill: var(--iris);
 }
@@ -350,7 +355,7 @@ img {
 }
 
 .checkbox:checked + .modal-policy > .modal-checkbox {
-  background-color: #404bbf;
+  background-color: var(--ocean);
 }
 
 .modal-policytext {
@@ -467,7 +472,7 @@ img {
   align-items: center;
   width: 24px;
   height: 24px;
-  padding: 8px;
+  padding: 0;
   border-radius: 50%;
 
   fill: var(--navy-blue);
