@@ -301,9 +301,9 @@ img {
   outline: 1px solid var(--iris);
 }
 
-.modal-input:required {
-  outline-color: transparent;
-}
+/* .modal-input:required:focus {
+  outline-color: red;
+} */
 
 .modal-svg {
   position: absolute;
